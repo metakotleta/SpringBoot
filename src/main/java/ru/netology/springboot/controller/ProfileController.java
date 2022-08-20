@@ -12,7 +12,7 @@ public class ProfileController {
         this.profile = profile;
     }
 
-    @GetMapping("profile")
+    @GetMapping("/profile")
     public String getProfile() {
         return profile.getProfile();
     }
